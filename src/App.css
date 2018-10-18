@@ -1,32 +1,51 @@
-.App {
-  text-align: center;
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    box-sizing: border-box;
+}
+.SocialCard{
+    background-color: #FFA003;
+    color: #fff;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.SocialCard h1{
+    text-align: center;
+    padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    margin: -10px 0 0 6px;
 }
 
-.App-link {
-  color: #61dafb;
+.author{
+    position: relative;
+    background-color: #fff;
+    color: #FFA003;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 10px 10px 340px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottomInfo{
+    color: #000;
+    background-color: #fff;
+    border-top: 1px solid gainsboro;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.bottomInfo a{
+    color: #e3e3e3;
+    text-decoration: none;
 }
